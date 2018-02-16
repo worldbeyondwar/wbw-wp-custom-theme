@@ -3,6 +3,9 @@
  Template: yamidoo
  */
 
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
 @media screen and (max-width: 980px) {
   #page-wrap {         
     width: 100%;
@@ -24,4 +27,18 @@ span.post-meta,
 .slicknav_nav .slicknav_row, 
 .slicknav_nav a {
   font-family: 'PT Sans';
+}
+
+ul.dropdown li {
+  font-family: 'Ubuntu', sans-serif !important; 
+}
+
+.post h1.title,
+.entry h1,
+.entry h2,
+.entry h3,
+.entry h4,
+.entry h5,
+.entry h6 {
+  font-family: 'Montserrat', sans-serif; 
 }
