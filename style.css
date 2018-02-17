@@ -3,7 +3,7 @@
  Template: yamidoo
  */
 
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:400);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:600);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:500);
 
 @media screen and (max-width: 980px) {
@@ -24,13 +24,65 @@ span.post-meta,
   padding: 0px 0px 0px 0px;
 }
 
+#glt-translate-trigger {
+  font-family: 'Josefin Sans', sans-serif; 
+}
+  
+span.category {
+  font-family: 'Josefin Sans', sans-serif; 
+  font-size: 1em;
+  color: #074772;
+}
+
+span.category a {
+  color: #074772;
+}
+
 .slicknav_nav .slicknav_row, 
 .slicknav_nav a {
-  font-family: 'PT Sans';
+  font-family: 'Josefin Sans', sans-serif; 
 }
 
 ul.dropdown li {
-  font-family: 'Ubuntu', sans-serif !important; 
+  font-family: 'Josefin Sans', sans-serif !important; 
+}
+
+ul.dropdown a {
+  color: #074772;
+}
+
+#menu {
+  border-top: 2px solid #074772;;
+  border-bottom: 2px solid #074772;;
+  padding: 6px 0px 0px 0px;
+}
+
+#anything {
+  font-family: 'Montserrat', sans-serif; 
+}
+
+.h3 a,
+.column .h3 a,
+.column_first .h3 a {
+  font-family: 'Josefin Sans', sans-serif; 
+}
+
+#articles .head_title {
+  font-family: 'Josefin Sans', sans-serif; 
+}
+  
+.widget h3.title,
+h3.archive_title {
+  color: #074772;
+  font-family: 'Josefin Sans', sans-serif !important;  
+  font-size: 1.1em !important;
+  background-color: #ddddee !important;
+  border-top: 0px !important;
+  padding: 8px 0px 3px 10px !important;
+}
+  
+.article h2.title {
+  font-family: 'Montserrat', sans-serif; 
 }
 
 .post h1.title,
