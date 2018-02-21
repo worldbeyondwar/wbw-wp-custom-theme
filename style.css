@@ -40,7 +40,10 @@
   #page-wrap {         
     width: 100%;
   }
+/*
   .home #feature {
+    width: 100%;
+    height: auto;
     float: none;
   }
   .cover iframe, 
@@ -49,9 +52,10 @@
     width: 100% !important;
     height: auto !important;
   }
+*/
   .text-slider {
-    width: 100%;
-    float: none;
+    width: 100% !important;
+    float: none !important;
   }
 }
 
