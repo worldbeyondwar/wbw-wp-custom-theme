@@ -23,7 +23,7 @@
 			<div class="clear"></div>
 		</div><!-- /.widget-area-->		
 		<div class="clear"></div>
-                  Website built with open-source <a target="_blank" href="http://wordpress.org">WordPress</a> and hosted by union shop at <a target="_blank" href="http://mayfirst.org">MayFirst.org</a>.
+                  Website built with open source <a target="_blank" href="http://wordpress.org">WordPress</a> and hosted by union shop at <a target="_blank" href="http://mayfirst.org">MayFirst.org</a>.
 		</div>
 
 	</div> <!-- /#footer -->
