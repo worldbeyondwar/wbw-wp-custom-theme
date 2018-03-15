@@ -6,36 +6,6 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:600);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:500,700);
 
-@media (max-width: 980px) {
-  #narrow-front-video {
-    display: inline;
-  }
-  #narrow-front-anything {
-    display: block;
-  }
-  #wide-front-video {
-    display: none;
-  }
-  #wide-front-anything {
-    display: none;
-  }
-}
-
-@media (min-width: 981px) {
-  #wide-front-video {
-    display: inline;
-  }
-  #wide-front-anything {
-    display: block;
-  }
-  #narrow-front-video {
-    display: none;
-  }
-  #narrow-front-anything {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 980px) {
   #page-wrap {         
     width: 100%;
