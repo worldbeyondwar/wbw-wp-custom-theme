@@ -83,6 +83,39 @@ div.navigation {
   font-size: 1.1em;
 }
 
+td.archive-post-image {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+td.archive-post-image img {
+  max-width: 300px;
+}
+
+@media screen and (max-width: 980px) {
+  td.archive-post-image img {
+    width: 180px;
+  }
+}
+
+td.archive-post-text {
+  width: 100%;
+}
+ 
+.archive-post-title {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.archive-post-datetime {
+  padding-top: 6px;
+}
+
+.archive-post-summary {
+  padding-top: 6px;
+}
+
 #footer {
   font-family: 'Josefin Sans', sans-serif; 
   font-size: 14px;
