@@ -83,6 +83,18 @@ div.navigation {
   font-size: 1.1em;
 }
 
+.archive-pagination {
+  padding-top: 15px;
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.archive-pagination .page-numbers {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 td.archive-post-image {
   padding-top: 15px;
   padding-bottom: 15px;

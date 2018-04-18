@@ -50,8 +50,10 @@
           ?>
         </table>
       </div>
-      <?php 
-      my_pagination(); 
+      <div class="archive-pagination">
+        <?php my_pagination(); ?>
+      </div>
+      <?php
     }
  
     // Restore original Post Data
