@@ -16,7 +16,7 @@
     $args = array(
       'nopaging'               => false,
       'paged'                  => $paged,
-      'posts_per_page'         => '15',
+      'posts_per_page'         => '10',
       'post_type'              => 'post',
       'post_status'            => 'publish',
     );
