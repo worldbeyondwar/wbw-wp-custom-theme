@@ -6,6 +6,27 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:600);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:500,700);
 
+.related_post_header {
+  margin-top: 16px;
+  margin-bottom: 4px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 4px;
+}
+
+.related_post_title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.1em;
+  padding-top: 10px;
+  padding-bottom: 6px;
+}
+
+.related_post_thumb {
+  padding-bottom: 4px;
+}
+
 .article-categories,
 .article-categories a {
   color: #074772;

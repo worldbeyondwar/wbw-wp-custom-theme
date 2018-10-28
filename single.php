@@ -95,9 +95,49 @@
 					<?php the_author_meta('description'); ?><div class="clear"></div>
 				</div>
 			<?php } ?>
+                        <div class="similar-posts-ontology">
+                          <table class="similar-posts-table">
+                            <tr>
+                              <?php
+
+                                // add Similar Posts Ontology widget 
+
+                                $pk_args = array (
+                                  'posts_per_page' => 3,
+                                  'thumbnail_size' => 'medium',
+                                  'sort_prefer' => 'closest'
+                                );
+                                $pk_related = pk_related_return($post->ID, $pk_args);
+                                $num_related = 0;
+                                foreach ($pk_related as $related_post) {
+                              
+                                  // display related posts header first time thru
+
+                                  if ($num_related==0) {
+                                    print '<div class="related_post_header">You Might Also Like ...</a>';
+                                  }
+
+                                  $rel_title = $related_post->post_title;
+                                  $rel_thumb = $related_post->thumbnail;
+                                  $rel_link = $related_post->permalink;
+
+                                  print '<td>';
+                                  print '<div class="related_post_title">';
+                                  print '<a href="' . $rel_link . '">'. $rel_title . '</a>';
+                                  print '</div>';
+
+                                  print '<div class="related_post_thumb">';
+                                  print '<a href="' . $rel_link . '"><img src="'. $rel_thumb . '" /></a>';
+                                  print '</div>';
+                                  print '</td>';
+                                  $num_related++;
+                                }
+                              ?>
+                            </tr>
+                          </table>
+                        </div>
 
 		</div><!-- /.post -->
-
 
 		<?php if (option::get('post_comments') == 'on') { 
 			comments_template();
