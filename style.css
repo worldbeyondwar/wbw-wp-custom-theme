@@ -6,6 +6,14 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:600);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:500,700);
 
+.article-categories,
+.article-categories a {
+  color: #074772;
+  font-family: 'Montserrat', sans-serif;
+  font-variant: small-caps;
+  padding-bottom: 4px;
+}
+
 @media screen and (max-width: 980px) {
   #page-wrap {         
     width: 100%;
