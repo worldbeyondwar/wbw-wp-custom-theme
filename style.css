@@ -6,7 +6,49 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:600);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:500,700);
 
-.related_post_header {
+.similar-posts-ontology {
+  width: 100%;
+  text-align: center;
+}
+
+.similar-posts-table {
+  display: table; 
+}
+
+.similar-posts-tr {
+  display: table-row; 
+}
+
+.similar-posts-td {
+  padding-left: 2px;
+  padding-right: 2px;
+  display: table-cell; 
+}
+
+@media screen and (max-width: 980px) {
+  .similar-posts-table {
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    display: block; 
+  }
+
+  .similar-posts-tr {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    display: block; 
+  }
+
+  .similar-posts-td {
+    text-align: center;
+    margin: 0 auto;
+    display: block; 
+  }
+}
+
+
+.related-post-header {
   margin-top: 16px;
   margin-bottom: 4px;
   text-align: center;
@@ -15,16 +57,20 @@
   padding-top: 4px;
 }
 
-.related_post_title {
+.related-post-title {
+  width: 300px;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2em;
   line-height: 1.1em;
   padding-top: 10px;
+  padding-right: 4px;
   padding-bottom: 6px;
+  padding-left: 4px;
 }
 
-.related_post_thumb {
+.related-post-thumb {
   padding-bottom: 4px;
+  width: 300px;
 }
 
 .article-categories,

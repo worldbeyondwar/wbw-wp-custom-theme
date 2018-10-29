@@ -97,40 +97,48 @@
 			<?php } ?>
                         <div class="similar-posts-ontology">
                           <table class="similar-posts-table">
-                            <tr>
+                            <tr class="similar-posts-tr">
                               <?php
 
                                 // add Similar Posts Ontology widget 
 
                                 $pk_args = array (
-                                  'posts_per_page' => 3,
+                                  'posts_per_page' => 2,
                                   'thumbnail_size' => 'medium',
                                   'sort_prefer' => 'closest'
                                 );
                                 $pk_related = pk_related_return($post->ID, $pk_args);
-                                $num_related = 0;
+                                $num_related = sizeof($pk_related);
+                                $n = 0;
+                                
                                 foreach ($pk_related as $related_post) {
                               
                                   // display related posts header first time thru
 
-                                  if ($num_related==0) {
-                                    print '<div class="related_post_header">You Might Also Like ...</a>';
+                                  if ($n==0) {
+                                    print '<div class="related-post-header">You Might Also Like ...</a>';
                                   }
 
                                   $rel_title = $related_post->post_title;
                                   $rel_thumb = $related_post->thumbnail;
                                   $rel_link = $related_post->permalink;
 
-                                  print '<td>';
-                                  print '<div class="related_post_title">';
+                                  // handle special case of only a single related post found
+                                  if ($num_related<2) {
+                                    $td_class = "similar-posts-td similar-posts-td-singleton";
+                                  } else {
+                                    $td_class = "similar-posts-td";
+                                  }
+                                  print '<td class="' . $td_class . '">';
+                                  print '<div class="related-post-title">';
                                   print '<a href="' . $rel_link . '">'. $rel_title . '</a>';
                                   print '</div>';
 
-                                  print '<div class="related_post_thumb">';
+                                  print '<div class="related-post-thumb">';
                                   print '<a href="' . $rel_link . '"><img src="'. $rel_thumb . '" /></a>';
                                   print '</div>';
                                   print '</td>';
-                                  $num_related++;
+                                  $n++;
                                 }
                               ?>
                             </tr>
