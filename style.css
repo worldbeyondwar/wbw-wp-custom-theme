@@ -29,7 +29,7 @@
   .similar-posts-table {
     text-align: center;
     margin: 0 auto;
-    width: 300px;
+    width: 290px;
     display: block; 
   }
 
@@ -58,7 +58,8 @@
 }
 
 .related-post-title {
-  width: 300px;
+  width: 290px;
+  min-height: 40px;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2em;
   line-height: 1.1em;
@@ -70,7 +71,7 @@
 
 .related-post-thumb {
   padding-bottom: 4px;
-  width: 300px;
+  width: 290px;
 }
 
 .article-categories,
