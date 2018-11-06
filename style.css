@@ -6,6 +6,30 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:600);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:500,700);
 
+/* these style changes were added to fix problems resulting from WPZOOM theme upgrade October 2018 */
+
+#logo {
+  padding-top: 5px;
+}
+
+#header #search {
+  display: none;
+}
+
+#main-wrap {
+  margin-top: 0px;
+}
+
+#header {
+  padding: 0px 20px;
+}
+
+ul.dropdown li ul {
+  background-color: white;
+}
+
+/* end of style changes for theme upgrade fixes */
+
 .similar-posts-ontology {
   width: 100%;
   text-align: center;
