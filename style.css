@@ -6,6 +6,21 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:600);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:500,700);
 
+/* custom promo using Custom HTML Widget in "Sidebar (half right)" on page template */
+
+.wbw_custom_widget_page_promo {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;  
+  border-color: black;  
+  border-width: 1px;
+}
+
+.wbw_custom_widget_page_promo img {
+  max-width: 500px;
+}
+
 /* these style changes were recovered from custom.css after WPZOOM theme upgrade October 2018 */
 
 .text-slider {

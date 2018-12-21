@@ -145,6 +145,14 @@
                           </table>
                         </div>
 
+                        <div class="custom_page_promo">
+                          <?php
+                            // use Sidebar (half right) to hold promo for single page	
+                            dynamic_sidebar('Sidebar (half right)');
+                          ?>
+			</div>
+
+
 		</div><!-- /.post -->
 
 		<?php if (option::get('post_comments') == 'on') { 
@@ -167,4 +175,3 @@
 } else { echo "<div class=\"clear\"></div>"; } ?>
 
 <?php get_footer(); ?>
-
