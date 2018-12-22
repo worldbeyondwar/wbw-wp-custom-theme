@@ -10,14 +10,16 @@
 
 .wbw_custom_widget_page_promo {
   padding: 10px;
+  background-color:#e6eeff;
   margin-top: 20px;
   margin-bottom: 20px;
   border-style: solid;  
-  border-color: black;  
+  border-color: #b3cbff;  
   border-width: 1px;
 }
 
 .wbw_custom_widget_page_promo img {
+  width: 100%;
   max-width: 500px;
 }
 
