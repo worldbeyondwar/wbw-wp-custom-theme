@@ -116,7 +116,7 @@
                                   // display related posts header first time thru
 
                                   if ($n==0) {
-                                    print '<div class="related-post-header">You Might Also Like ...</a>';
+                                    print '<div class="related-post-header">Related Articles ...</a>';
                                   }
 
                                   $rel_title = $related_post->post_title;
