@@ -6,6 +6,11 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:600);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:500,700);
 
+.boldblue {
+  font-weight: bold;
+  color: #0b92b4;
+}
+
 /* new styles for chapter pages */
 
 #chapter-about {
@@ -17,7 +22,7 @@
 }
 
 #chapter-about h1 {
-  color: #0B92B4;
+  color: #000099;
   font-weight: bold;
   font-size: x-large;
 }
@@ -28,7 +33,7 @@
 
 #chapter-contact h1 {
   margin-top: 10px;
-  color: #0B92B4;
+  color: #ff0040;
   font-weight: bold;
   font-size: x-large;
 }
@@ -40,7 +45,7 @@
 }
 
 #chapter-events h1 {
-  color: #0B92B4;
+  color: #ff8000;
   font-weight: bold;
   font-size: x-large;
 }
