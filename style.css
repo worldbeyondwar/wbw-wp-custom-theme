@@ -11,6 +11,77 @@
   color: #0b92b4;
 }
 
+/* animated ribbon */
+
+.ribbonflow {
+  width: 600px;
+  overflow: hidden;
+  padding: 10px 0px 10px 0px;
+}
+
+.ribbon {
+  width: 1850px;
+  display: table;
+}
+
+.ribbon-box {
+  margin: 0px 10px 0px 10px;
+  position: relative;
+  -webkit-animation: mymove 10s infinite;
+  animation: mymove 10s infinite;
+  animation-direction: alternate;
+  width: 150px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.ribbon-box img {
+  max-height: 150px;
+  max-width: 150px;
+}
+
+@-webkit-keyframes mymove {
+  0% {right: 0px;}
+  100% {right: 1300px;}
+}
+
+@keyframes mymove {
+  0%   {right: 0px;}
+  100% {right: 1300px;}
+}
+
+#can-form-area-get-updates-for-nowar2020 {
+  margin: 0 auto;
+  width: 600px;
+}
+
+#full-width-main {
+  float: left;
+  width: 65%;
+}
+
+#full-width-sidebar {
+  float: left;
+  width: 30%;
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 980px) {
+  #can-form-area-get-updates-for-nowar2020 {
+     width: 300px;
+  }
+
+  #full-width-main {
+    width: 100%;
+  }
+
+  #full-width-sidebar {
+    text-align: center;
+    width: 100%;
+    padding-left: 0px;
+  }
+}
+
 /* new styles for chapter pages */
 
 #chapter-about {
@@ -22,7 +93,7 @@
 }
 
 #chapter-about h1 {
-  color: #000099;
+  color: #074772;
   font-weight: bold;
   font-size: x-large;
 }
