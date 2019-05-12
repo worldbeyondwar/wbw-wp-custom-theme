@@ -3,6 +3,8 @@
  * functions.php for World Beyond War yamidoo child theme
  */
 
+/* standard child theme enqueue styles */
+
 add_action('wp_enqueue_scripts', 'enqueue_parent_styles');
 
 function enqueue_parent_styles() {
@@ -13,6 +15,8 @@ function enqueue_parent_styles() {
                    wp_get_theme()->get('Version')
   );
 }
+
+/* custom pagination */
 
 if (!function_exists('my_pagination')):
   function my_pagination() {
@@ -30,6 +34,8 @@ if (!function_exists('my_pagination')):
     ));
   }
 endif;
+
+/* widget logic to allow custom HTML widget to be included in page templates */
 
 function widget($atts) {
   global $wp_widget_factory;
@@ -60,3 +66,14 @@ function widget($atts) {
 }
 add_shortcode('widget','widget'); 
 
+/* custom RSS feed for WBW podcast */
+
+add_action('init', 'wbwpodcastRSS');
+
+function wbwpodcastRSS(){
+  add_feed('wbwpodcast', 'wbwpodcastRSSFunc');
+}
+
+function wbwpodcastRSSFunc(){
+  get_template_part('rss', 'wbwpodcast');
+}
