@@ -25,8 +25,10 @@
                                  $exclude_category = true;
                                } 
                                $parent = get_category($category->category_parent);
-                               if ($parent->slug=="alternatives") {
-                                 $exclude_category = true;
+			       if (isset($parent->slug)) {
+                                 if ($parent->slug=="alternatives") {
+                                   $exclude_category = true;
+                                 } 
                                } 
               
                                // if not excluded, display category
