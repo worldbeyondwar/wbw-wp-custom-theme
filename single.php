@@ -1,6 +1,17 @@
 <?php get_header(); ?>
 <?php $template = get_post_meta($post->ID, 'wpzoom_post_template', true); ?>
 
+<?php
+/* debug marceliotstein 2019 */
+$admin_debug = false;
+if (is_user_logged_in()) {
+  $admin_debug = true;
+}
+if ($admin_debug) {
+  //print "single";
+}
+?>
+
 <div id="main"<?php if ($template == 'full') {echo " class=\"full-width\"";} ?>>
 
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post();	?>
@@ -122,7 +133,11 @@
                                   }
 
                                   $rel_title = $related_post->post_title;
-                                  $rel_thumb = $related_post->thumbnail;
+				  if (isset($related_post->thumbnail)) {
+                                    $rel_thumb = $related_post->thumbnail;
+				  } else {
+			            $rel_thumb = null;
+				  }
                                   $rel_link = $related_post->permalink;
 
                                   // handle special case of only a single related post found
@@ -136,10 +151,12 @@
                                   print '<a href="' . $rel_link . '">'. $rel_title . '</a>';
                                   print '</div>';
 
-                                  print '<div class="related-post-thumb">';
-                                  print '<a href="' . $rel_link . '"><img src="'. $rel_thumb . '" /></a>';
-                                  print '</div>';
-                                  print '</td>';
+				  if (isset($rel_thumb)) {
+                                    print '<div class="related-post-thumb">';
+                                    print '<a href="' . $rel_link . '"><img src="'. $rel_thumb . '" /></a>';
+                                    print '</div>';
+                                    print '</td>';
+				  }
                                   $n++;
                                 }
                               ?>
@@ -162,7 +179,7 @@
 		} ?>
 		
 		<?php endwhile; 
-		
+
 			else:
 
 		?><p><?php _e('Sorry, no posts matched your criteria.', 'wpzoom');?></p><?php
