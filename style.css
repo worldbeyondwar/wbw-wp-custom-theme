@@ -6,6 +6,30 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:600);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:500,700);
 
+/* responsive columns for WBW store and other pages */
+
+.wbw-responsive-column {
+  background-color: white;
+  text-align: center;
+  width: 47%; 
+  padding: 0 10px 0 10px; 
+  float: left;
+}
+
+@media screen and (max-width: 980px) {
+  .wbw-responsive-column {
+    width: 100%; 
+  }
+}
+
+/* right justified page template (for Farsi and other rightward languages) */
+
+.wbw-right-justified {
+  text-align: right;
+}
+
+/* general purpose WBW blue text */
+
 .boldblue {
   font-weight: bold;
   color: #0b92b4;
