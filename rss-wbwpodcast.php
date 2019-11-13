@@ -42,6 +42,20 @@ echo '<?xml version="1.0" encoding="'.get_option('blog_charset').'"?'.'>';
         </image>
         <itunes:category text="News &amp; Politics"/>
 <item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/702040264</guid>
+      <title>Peace Activists in Ireland</title>
+      <pubDate>Sat, 26 Oct 2019 15:11:09 +0000</pubDate>
+      <link>https://soundcloud.com/world-beyond-war/peace-activists-in-ireland</link>
+      <itunes:duration>00:58:28</itunes:duration>
+      <itunes:author>World BEYOND War</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Ireland has been a global beacon for peace since the Good Friday agreements of 1998, yet antiwar activists in Ireland are struggling to be heard about PESCO and the illegal use of Shannon Airport by USA military forces. We talk to Barry Sweeney, who brought World BEYOND War's #NoWar2019 conference to Limerick, Ireland, and hear inspiring clips from this conference including Nobel Peace Laureate Mairead Maguire and Afri/Action's John Maguire.</itunes:summary>
+      <itunes:subtitle>Ireland has been a global beacon for peace since …</itunes:subtitle>
+      <description>Ireland has been a global beacon for peace since the Good Friday agreements of 1998, yet antiwar activists in Ireland are struggling to be heard about PESCO and the illegal use of Shannon Airport by USA military forces. We talk to Barry Sweeney, who brought World BEYOND War's #NoWar2019 conference to Limerick, Ireland, and hear inspiring clips from this conference including Nobel Peace Laureate Mairead Maguire and Afri/Action's John Maguire.</description>
+      <enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/702040264-world-beyond-war-peace-activists-in-ireland.mp3" length="0"/>
+      <itunes:image href="http://i1.sndcdn.com/avatars-000631811979-oaehnz-original.jpg"/>
+    </item>
+<item>
       <guid isPermaLink="false">tag:soundcloud,2010:tracks/681139076</guid>
       <title>Educating For Peace</title>
       <pubDate>Sat, 14 Sep 2019 20:17:21 +0000</pubDate>

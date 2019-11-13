@@ -16,8 +16,19 @@
   float: left;
 }
 
+.wbw-responsive-column-left {
+  background-color: white;
+  text-align: left;
+  width: 47%; 
+  padding: 0px 0px 0px 0px; 
+  float: left;
+}
+
 @media screen and (max-width: 980px) {
   .wbw-responsive-column {
+    width: 100%; 
+  }
+  .wbw-responsive-column-left {
     width: 100%; 
   }
 }
