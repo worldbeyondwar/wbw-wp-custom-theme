@@ -42,6 +42,20 @@ echo '<?xml version="1.0" encoding="'.get_option('blog_charset').'"?'.'>';
         </image>
         <itunes:category text="News &amp; Politics"/>
 <item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/728180197</guid>
+      <title>Crisis in Bolivia</title>
+      <pubDate>Mon, 16 Dec 2019 00:23:45 +0000</pubDate>
+      <link>https://soundcloud.com/world-beyond-war/crisis-in-bolivia</link>
+      <itunes:duration>01:01:10</itunes:duration>
+      <itunes:author>World BEYOND War</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Medea Benjamin of CODEPINK and economist Ivan Velaszquz of Universidad Mayor San Andres and Konrad Adenauer Foundation in La Paz join Marc Eliot Stein and David Swanson to talk about the current crisis in Bolivia, with special attention to the indigenous rights movement, the question of electoral validity and the problem of external influence on Bolivian politics. Featuring a musical excerpt from Los Kjarkas.</itunes:summary>
+      <itunes:subtitle>Medea Benjamin of CODEPINK and economist Ivan Vel…</itunes:subtitle>
+      <description>Medea Benjamin of CODEPINK and economist Ivan Velaszquz of Universidad Mayor San Andres and Konrad Adenauer Foundation in La Paz join Marc Eliot Stein and David Swanson to talk about the current crisis in Bolivia, with special attention to the indigenous rights movement, the question of electoral validity and the problem of external influence on Bolivian politics. Featuring a musical excerpt from Los Kjarkas.</description>
+      <enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/728180197-world-beyond-war-crisis-in-bolivia.mp3" length="0"/>
+      <itunes:image href="http://i1.sndcdn.com/artworks-000652420360-gj4j73-original.jpg"/>
+    </item>
+<item>
       <guid isPermaLink="false">tag:soundcloud,2010:tracks/702040264</guid>
       <title>Peace Activists in Ireland</title>
       <pubDate>Sat, 26 Oct 2019 15:11:09 +0000</pubDate>

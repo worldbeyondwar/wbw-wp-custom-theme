@@ -33,7 +33,8 @@
               $title = get_the_title();
               $datetime = get_the_date('F j, Y g:i a');
               $thumb = get_the_post_thumbnail(null,'medium');
-              $link = get_permalink($recent["ID"]);
+              //$link = get_permalink($recent["ID"]);
+              $link = get_permalink();
               ?>
                 <tr>
                   <td class="archive-post-image">
