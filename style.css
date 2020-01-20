@@ -151,8 +151,6 @@
 
 #chapter-events {
   float: left;
-  width: 65%;
-  margin-left: 30px;
   margin-top: 0px;
   border-bottom-width: 1px;
   border-bottom-style: dotted;
@@ -171,25 +169,6 @@
     border-bottom-width: 0px;
   }
 }
-/*
-#chapter-events {
-  float: right;
-  width: 40%;
-  margin-left: 30px;
-}
-
-@media screen and (max-width: 980px) {
-  #chapter-events {
-    margin-top: 10px;
-    float: left;
-    width: 65%;
-    margin-left: 0px;
-    border-bottom-width: 1px;
-    border-bottom-style: dotted;
-    border-color: #d2d2d2;
-  }
-}
-*/
 
 #chapter-events h1 {
   color: #ff8000;
