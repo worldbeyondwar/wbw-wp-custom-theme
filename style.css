@@ -120,9 +120,13 @@
 
 /* new styles for chapter pages */
 
+#chapter-top {
+  padding-top: 12px;
+}
+
 #chapter-about {
   float: left;
-  width: 65%;
+  width: 100%;
   border-bottom-width: 1px;
   border-bottom-style: dotted;
   border-color: #d2d2d2;
@@ -146,15 +150,32 @@
 }
 
 #chapter-events {
-  float: right;
-  width: 30%;
+  float: left;
+  width: 65%;
   margin-left: 30px;
+  margin-top: 0px;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  border-color: #d2d2d2;
 }
 
-#chapter-events h1 {
-  color: #ff8000;
-  font-weight: bold;
-  font-size: x-large;
+@media screen and (min-width: 980px) {
+  #chapter-about {
+    width: 55%;
+  }
+ 
+  #chapter-events {
+    float: right;
+    width: 40%;
+    margin-left: 30px;
+    border-bottom-width: 0px;
+  }
+}
+/*
+#chapter-events {
+  float: right;
+  width: 40%;
+  margin-left: 30px;
 }
 
 @media screen and (max-width: 980px) {
@@ -168,6 +189,14 @@
     border-color: #d2d2d2;
   }
 }
+*/
+
+#chapter-events h1 {
+  color: #ff8000;
+  font-weight: bold;
+  font-size: x-large;
+}
+
 
 /* custom promo using Custom HTML Widget in "Sidebar (half right)" on page template */
 
