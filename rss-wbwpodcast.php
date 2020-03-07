@@ -42,6 +42,34 @@ echo '<?xml version="1.0" encoding="'.get_option('blog_charset').'"?'.'>';
         </image>
         <itunes:category text="News &amp; Politics"/>
 <item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/767378518</guid>
+      <title>Intersections in Ottawa</title>
+      <pubDate>Thu, 27 Feb 2020 15:10:11 +0000</pubDate>
+      <link>https://soundcloud.com/world-beyond-war/intersections-in-ottawa</link>
+      <itunes:duration>00:46:56</itunes:duration>
+      <itunes:author>World BEYOND War</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>The upcoming #NoWar2020 antiwar conference in Ottawa, Canada will be a convergence of indigenous rights movements, urgency for climate change awareness, protest against military profiteering at the CANSEC weapons bazaar, and, as always, the core principle behind everything we do at World Beyond War: the goal to end all war, everywhere. In this podcast, we hear from four people who will be at #NoWar2020 in Ottawa: organizer Katie Perfitt, longtime resister Colin Stuart, and podcast hosts Marc Eliot Stein and Alex McAdams. Musical interlude: Joni Mitchell.</itunes:summary>
+      <itunes:subtitle>The upcoming #NoWar2020 antiwar conference in Ott…</itunes:subtitle>
+      <description>The upcoming #NoWar2020 antiwar conference in Ottawa, Canada will be a convergence of indigenous rights movements, urgency for climate change awareness, protest against military profiteering at the CANSEC weapons bazaar, and, as always, the core principle behind everything we do at World Beyond War: the goal to end all war, everywhere. In this podcast, we hear from four people who will be at #NoWar2020 in Ottawa: organizer Katie Perfitt, longtime resister Colin Stuart, and podcast hosts Marc Eliot Stein and Alex McAdams. Musical interlude: Joni Mitchell.</description>
+      <enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/767378518-world-beyond-war-intersections-in-ottawa.mp3" length="0"/>
+      <itunes:image href="http://i1.sndcdn.com/artworks-tfGwyQWFYEPD811d-3zeZfA-original.jpg"/>
+    </item>
+    <item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/750665104</guid>
+      <title>Our Friends in Tehran</title>
+      <pubDate>Tue, 28 Jan 2020 22:30:15 +0000</pubDate>
+      <link>https://soundcloud.com/world-beyond-war/our-friends-in-tehran</link>
+      <itunes:duration>01:14:31</itunes:duration>
+      <itunes:author>World BEYOND War</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Shahrzad Khayatian and Foad Izadi are part of the World BEYOND War community in Tehran. Shahrzad has written articles on the effects of sanctions on human lives in Iran, and Foad was a featured speaker at our #NoWar2019 conference in Limerick, Ireland. Following the sudden escalation between USA and Iran in January 2020, Shahrzad and Foad spoke with podcast hosts Marc Eliot Stein and Greta Zarro in the USA about the situation we are all in together. Musical excerpt: &quot;Price of Freedom&quot; by Salome MC.</itunes:summary>
+      <itunes:subtitle>Shahrzad Khayatian and Foad Izadi are part of the…</itunes:subtitle>
+      <description>Shahrzad Khayatian and Foad Izadi are part of the World BEYOND War community in Tehran. Shahrzad has written articles on the effects of sanctions on human lives in Iran, and Foad was a featured speaker at our #NoWar2019 conference in Limerick, Ireland. Following the sudden escalation between USA and Iran in January 2020, Shahrzad and Foad spoke with podcast hosts Marc Eliot Stein and Greta Zarro in the USA about the situation we are all in together. Musical excerpt: &quot;Price of Freedom&quot; by Salome MC.</description>
+      <enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/750665104-world-beyond-war-our-friends-in-tehran.mp3" length="0"/>
+      <itunes:image href="http://i1.sndcdn.com/avatars-000631811979-oaehnz-original.jpg"/>
+    </item>
+    <item>
       <guid isPermaLink="false">tag:soundcloud,2010:tracks/728180197</guid>
       <title>Crisis in Bolivia</title>
       <pubDate>Mon, 16 Dec 2019 00:23:45 +0000</pubDate>
