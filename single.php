@@ -19,38 +19,42 @@ if ($admin_debug) {
  		<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                         <div class="article-categories">
                           <?php 
-                             $categories = get_the_category();
+                             $categories = get_the_terms(get_the_ID(),'category');
                              $n = 0;
                              foreach ($categories as $category) {
+		               if (!is_wp_error($category)) {
 
-                               // exclude certain categories from display
+                                 // exclude certain categories from display
 
-                               $exclude_category = false;
-                               if ($category->name=="Uncategorized") {
-                                 $exclude_category = true;
-                               } 
-                               if (($category->name=="Alternatives") ||
-                                   ($category->name=="Campaigns") ||
-                                   ($category->name=="Chapters and Affiliates") ||
-                                   ($category->name=="Online Actions")) {
-                                 $exclude_category = true;
-                               } 
-                               $parent = get_category($category->category_parent);
-			       if (isset($parent->slug)) {
-                                 if ($parent->slug=="alternatives") {
+                                 $exclude_category = false;
+                                 if ($category->name=="Uncategorized") {
                                    $exclude_category = true;
                                  } 
-                               } 
+                                 if (($category->name=="Alternatives") ||
+                                     ($category->name=="Campaigns") ||
+                                     ($category->name=="Chapters and Affiliates") ||
+                                     ($category->name=="Online Actions")) {
+                                   $exclude_category = true;
+                                 } 
+                                 $parent = get_category($category->category_parent);
+		      	         if (isset($parent->slug)) {
+                                   if ($parent->slug=="alternatives") {
+                                     $exclude_category = true;
+                                   } 
+                                 } 
               
-                               // if not excluded, display category
+                                 // if not excluded, display category
 
-                               if (!$exclude_category) {
-                                 $cat_link = get_category_link($category->cat_ID);
-                                 if ($n > 0) {
-                                   echo ', ';
+                                 if (!$exclude_category) {
+                                   $cat_link = get_term_link($category->cat_ID);
+		                   if (!is_wp_error($cat_link)) {
+                                     if ($n > 0) {
+                                       echo ', ';
+                                     }
+                                     echo '<a href="' . $cat_link . '">' . $category->name . '</a>';
+                                     $n++;
+                                   }
                                  }
-                                 echo '<a href="' . $cat_link . '">' . $category->name . '</a>';
-                                 $n++;
                                }
                              }
                           ?>

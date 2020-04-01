@@ -42,6 +42,20 @@ echo '<?xml version="1.0" encoding="'.get_option('blog_charset').'"?'.'>';
         </image>
         <itunes:category text="News &amp; Politics"/>
 <item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/783323935</guid>
+      <title>Visual Voices with Piril Torgut</title>
+      <pubDate>Thu, 26 Mar 2020 15:32:25 +0000</pubDate>
+      <link>https://soundcloud.com/world-beyond-war/visual-voices-with-piril-torgut-cut20200328</link>
+      <itunes:duration>00:43:08</itunes:duration>
+      <itunes:author>World BEYOND War</itunes:author>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:summary>Piril Torgut is a young Cypriot artist who paints and sculpts visceral images of a marine world. Visual Voices is a global organization that supports artists who can help heal the troubled real world. In this episode of the World BEYOND War podcast, Piril Torgut and Alden Jacobs and Marina Neophytou of Visual Voices join Marc Eliot Stein and Greta Zarro for an unrestrained conversation about art, violence, the Greek/Turkish conflict in Cyprus, and our methods of finding hope through art. Music: &quot;What The Water Gave Me&quot; by Florence + the Machine.</itunes:summary>
+      <itunes:subtitle>Piril Torgut is a young Cypriot artist who paints…</itunes:subtitle>
+      <description>Piril Torgut is a young Cypriot artist who paints and sculpts visceral images of a marine world. Visual Voices is a global organization that supports artists who can help heal the troubled real world. In this episode of the World BEYOND War podcast, Piril Torgut and Alden Jacobs and Marina Neophytou of Visual Voices join Marc Eliot Stein and Greta Zarro for an unrestrained conversation about art, violence, the Greek/Turkish conflict in Cyprus, and our methods of finding hope through art. Music: &quot;What The Water Gave Me&quot; by Florence + the Machine.</description>
+      <enclosure type="audio/mpeg" url="http://feeds.soundcloud.com/stream/783323935-world-beyond-war-visual-voices-with-piril-torgut-cut20200328.mp3" length="0"/>
+      <itunes:image href="http://i1.sndcdn.com/artworks-tfGwyQWFYEPD811d-3zeZfA-original.jpg"/>
+    </item>
+<item>
       <guid isPermaLink="false">tag:soundcloud,2010:tracks/767378518</guid>
       <title>Intersections in Ottawa</title>
       <pubDate>Thu, 27 Feb 2020 15:10:11 +0000</pubDate>
